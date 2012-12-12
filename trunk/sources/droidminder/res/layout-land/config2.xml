@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000033">
+
+<TextView android:text="Configurações"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+		  android:textSize="25sp"
+		  android:typeface="sans"
+		  android:textColor="#ffffff"
+		  android:layout_gravity="center"
+/>
+<View
+android:id="@+id/divider"
+android:layout_width="fill_parent"
+android:layout_height="1px"
+android:background="@drawable/divisoria"
+/>
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="42dp"
+	android:orientation="horizontal"
+	android:layout_marginTop="10dp">
+<CheckBox android:text="Selecionar Todas" 
+		  android:id="@+id/CheckBox01" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content"
+		  android:layout_gravity="center_vertical"	  	  
+/>
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="right">
+<Button android:layout_width="140dp"
+		android:layout_height="42dp" 
+		android:id="@+id/btReverter" 
+		android:text="Restaurar Nomes"
+		android:textColor="#000033"
+		android:textSize="13sp"
+		android:textStyle="bold"
+		android:layout_gravity="center_vertical"
+		android:background="@drawable/botao_background"
+/>
+<Button android:layout_width="160dp"
+		android:layout_height="42dp" 
+		android:id="@+id/btVerCameras" 
+		android:text="Ver Câmeras"
+		android:textColor="#000033"
+		android:textStyle="bold"
+		android:layout_gravity="center_vertical"
+		android:background="@drawable/btn_background"
+/>
+</LinearLayout>
+</LinearLayout>
+<ScrollView 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+<LinearLayout 
+	android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

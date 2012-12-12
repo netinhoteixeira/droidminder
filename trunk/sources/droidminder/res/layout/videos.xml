@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#000033">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+layout/rl0"
+                    android:layout_width="320dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/back">
+
+        <ImageView
+            android:id="@+id/Icon0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:id="@+layout/ll_0"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="?android:attr/progressBarStyleLarge"
+/>
+            <TextView
+                android:text="Carregando..."
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvDesativada00"
+            android:text="DESATIVADA"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+        >
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+            >
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl1"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back">
+                    <ImageView
+                        android:id="@+id/Icon1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_1"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textColor="#ffffff"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada01"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl2"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back"
+                                android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:id="@+id/Icon2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_2"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada02"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl3"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back"
+                                android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:id="@+id/Icon3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_3"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textColor="#ffffff"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada03"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="5dp"
+            >
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl4"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back">
+
+                    <ImageView
+                        android:id="@+id/Icon4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_4"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textColor="#ffffff"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada04"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl5"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back"
+                                android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:id="@+id/Icon5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_5"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada05"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+layout/rl6"
+                                android:layout_width="104dp"
+                                android:layout_height="78dp"
+                                android:background="@drawable/back"
+                                android:layout_marginLeft="4dp">
+
+                    <ImageView
+                        android:id="@+id/Icon6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="2dp"
+/>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:orientation="vertical"
+                                  android:id="@+layout/ll_6"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_centerInParent="true">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="?android:attr/progressBarStyleSmall"
+/>
+                        <TextView
+                            android:text="Carregando..."
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvDesativada06"
+                        android:text="DESATIVADA"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
