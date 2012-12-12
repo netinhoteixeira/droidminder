@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000033">
+
+    <TextView android:id="@+id/conf1"
+              android:text="Configurações"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="25sp"
+              android:typeface="sans"
+              android:gravity="center"
+/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/conf1"
+        android:background="@drawable/divisoria"
+/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+    >
+        <TextView android:text="Usuário"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#ffffff"
+/>
+        <EditText android:id="@+id/etUsuario"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:singleLine="true"
+/>
+        <TextView android:text="Senha"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#ffffff"
+/>
+        <EditText android:id="@+id/etSenha"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:singleLine="true"
+                  android:password="true"
+/>
+        <TextView android:text="Endereço do Servidor"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#ffffff"
+/>
+        <EditText android:id="@+id/etIp"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:singleLine="true"
+/>
+        <TextView android:text="Porta"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#ffffff"
+/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        >
+            <EditText android:id="@+id/etPorta"
+                      android:layout_height="wrap_content"
+                      android:layout_width="75dp"
+                      android:singleLine="true"
+                      android:maxLength="5"
+                      android:gravity="center"
+/>
+            <RadioGroup  android:orientation="horizontal"
+                         android:id="@+id/rGroup"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+                <RadioButton android:text="HTTP"
+                             android:id="@+id/rbHttp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="30dp"
+                             android:layout_marginRight="20dp"
+/>
+                <RadioButton android:text="HTTPS"
+                             android:id="@+id/rbHttps"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+/>
+            </RadioGroup>
+        </LinearLayout>
+        <CheckBox android:text="Lembrar Dados"
+                  android:id="@+id/cbLembrar"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+/>
+    </LinearLayout>
+
+    <Button android:layout_width="186dp"
+            android:layout_height="50dp"
+            android:id="@+id/btAutenticar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Autenticar"
+            android:textStyle="bold"
+            android:textColor="#000033"
+            android:background="@drawable/btn_background"
+/>
+</RelativeLayout>

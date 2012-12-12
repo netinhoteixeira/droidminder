@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#c9c9c9"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/LogoView"
+        android:layout_gravity="center"
+        android:layout_width="252dp"
+        android:layout_height="131dp"
+        android:background="@drawable/logo"
+        android:layout_marginTop="40dp"
+/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <Button
+                android:text="Ver Câmeras"
+                android:id="@+id/btVideo"
+                android:layout_width="138dp"
+                android:layout_height="37dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:background="@drawable/btn_background"
+/>
+            <Button
+                android:text="Configurações"
+                android:id="@+id/btConfig"
+                android:layout_width="138dp"
+                android:layout_height="37dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:background="@drawable/btn_background"
+/>
+            <Button
+                android:text="Sobre"
+                android:id="@+id/btSobre"
+                android:layout_width="138dp"
+                android:layout_height="37dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:background="@drawable/btn_background"
+/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

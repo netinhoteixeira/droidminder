@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000033"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:id="@+id/conf2"
+		  android:text="Configurações"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" 
+		  android:textSize="25sp"
+		  android:typeface="sans"
+		  android:textColor="#ffffff"
+		  android:gravity="center"
+/>
+<View
+	android:id="@+id/divider"
+	android:layout_width="fill_parent"
+	android:layout_height="1px"
+	android:layout_below="@id/conf2"
+	android:background="@drawable/divisoria"
+/>
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_centerInParent="true">
+<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<CheckBox android:text="Selecionar Todas" 
+		  android:id="@+id/CheckBox01" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content"
+/>
+
+<Button android:layout_width="140dp"
+		android:layout_height="42dp" 
+		android:id="@+id/btReverter" 
+		android:text="Restaurar Nomes"
+		android:textColor="#000033"
+		android:textSize="13sp"
+		android:textStyle="bold"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/botao_background"
+/>
+</RelativeLayout>
+<ScrollView 
+	android:layout_width="fill_parent"
+	android:layout_height="290dp">
+
+<LinearLayout 
+	android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+<Button android:layout_width="186dp"
+		android:layout_height="50dp" 
+		android:id="@+id/btVerCameras" 
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:text="Ver Câmeras"
+		android:textColor="#000033"
+		android:textStyle="bold"
+		android:background="@drawable/btn_background"
+/>
+</RelativeLayout>
